@@ -1,15 +1,18 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Animation</title>
   <link href="/dist/output.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
 </head>
-<body>
-  <div>
-    <header>
-        
-    </header>
+<body class="flex justify-center items-center min-h-screen bg-[#111]">
+  <div class="relative w-full ring flex justify-center items-center container">
+    <div class="absolute ring w-36 h-36 border-4 border-transparent border-t-[#24ecff] border-t-4 rounded-full animate-bees-line"></div>
+    <div class="absolute ring w-36 h-36 border-4 border-transparent border-l-[#93ff2d] border-l-4 rounded-full animate-bees-line animate-bees-line2 -ml-16 -mt-16"></div>
+    <div class="absolute w-36 ring h-36  ring1 -ml-32 -mt-32"></div>
+    <p class="absolute text-white text-2xl font-mono bottom-[-5rem]">Loading...</p>
   </div>
 </body>
 </html>
